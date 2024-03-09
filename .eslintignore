@@ -1,0 +1,8 @@
+.eslintrc.js
+ios/
+android/
+*.config.js
+.eslintrc.js
+node_modules
+package-lock.json
+__tests__/
