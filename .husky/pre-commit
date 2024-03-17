@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+#only checking the linting when committing any code
+npm run lint:fix
+npx lint-staged
